@@ -1,6 +1,15 @@
-# ESP32-CAM example revisited. &nbsp;&nbsp;&nbsp; <span title="Master branch build status">[![CI Status](https://travis-ci.com/easytarget/esp32-cam-webserver.svg?branch=master)](https://travis-ci.com/github/easytarget/esp32-cam-webserver)</span> &nbsp;&nbsp; <span title="ESP EYE">![ESP-EYE logo](Docs/logo.svg)</span>
+# ESP32-CAM example revisited revisted. &nbsp;&nbsp;&nbsp; <span title="Master branch build status">[![CI Status](https://travis-ci.com/easytarget/esp32-cam-webserver.svg?branch=master)](https://travis-ci.com/github/easytarget/esp32-cam-webserver)</span> &nbsp;&nbsp; <span title="ESP EYE">![ESP-EYE logo](Docs/logo.svg)</span>
 
-## Taken from the ESP examples, and expanded
+## Taken from the ESP examples, and expanded and expanded
+
+I took the good work of easytarget and added some MQTT stuff. really basic, maybe not so basic later
+
+### Wish list
+[x] Functional MQTT send of images every n seconds
+[ ] Settings over MQTT
+[ ] ArduinoJson behaving.
+
+## Original Work
 This sketch is a extension/expansion/rework of the 'official' ESP32 Camera example sketch from Espressif:
 
 https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer
